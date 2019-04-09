@@ -1,6 +1,4 @@
 /*#############################################################
-<audio src="https://soundcloud.com/kyuhee132/im-yours-sungha-jung?in=user-994472763/sets/backsound-acoustic"autoplay controls></audio>
-
 Name: The Hobbit
 Date: 2006-10-11
 Description: Submission for OWD template contest "Favourite Book".
@@ -21,7 +19,8 @@ a {color: #36C;}
 a:hover {color: #06F;}
 
 body {
-	background-image: url("389873.jpg");
+	background: #4E5D3C url(img/bg.jpg);
+	color: #444;
 	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
 	margin: 0;
 }
@@ -63,9 +62,9 @@ img.left {margin: 0 18px 6px 0;}
 
 /* structure */
 .container {
-	background: url(bgcontainer.jpg)  repeat-y center top;
+	background: url(bgcontainer.jpg) repeat-y center top;
 	margin: 0 auto;
-	width: 1000px;
+	width: 736px;
 }
 
 .gfx {
@@ -84,7 +83,7 @@ img.left {margin: 0 18px 6px 0;}
 }
 
 .header {
-	background: #56644A url(haderestetik.png) no-repeat;
+	background: #56644A url(header.jpg) no-repeat;
 	color: #FFC;
 	font-size: 1.4em;
 	height: 232px;
