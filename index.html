@@ -21,10 +21,31 @@ body, html {height: 100%}
   <div class="w3-display-middle w3-jumbo">
   	<img class="center" src="kant.png" width="300" height="300">
   </div>
-  <div class="w3-display-topleft w3-container w3-xlarge">
-    <p><button onclick="Introduction.html('Introduction').style.display='block'" class="w3-button w3-black">Introduction</button></p>
-    <p><button onclick="journey.html('journey').style.display='block'" class="w3-button w3-black">Journey</button></p>
-  </div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="Introduction.html">Introduction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="journey.html">Penemn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pencapaian.html">Pencapaian</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="album.html">Album</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">About the Writter</a>
+      </li>     
+    </ul>
+  </div>  
+</nav>
 
   <div class="w3-display-bottomleft w3-container">
     <p class="w3-xlarge">Immanuel Kant</p>
