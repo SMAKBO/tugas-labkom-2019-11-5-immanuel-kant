@@ -63,9 +63,9 @@ img.left {margin: 0 18px 6px 0;}
 
 /* structure */
 .container {
-	background: url(bgcontainer.jpg)center top;
+	background: url(bgcontainer.jpg)  repeat-y center top;
 	margin: 0 auto;
-	width: 3000px;
+	width: 2000px;
 }
 
 .gfx {
