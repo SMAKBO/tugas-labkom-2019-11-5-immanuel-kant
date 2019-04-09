@@ -18,9 +18,9 @@ a {color: #36C;}
 
 a:hover {color: #06F;}
 
-body {
-	background: #4E5D3C url(img/bg.jpg);
-	color: #444;
+body 
+	background-image: url("writing-templates-2017-1.jpg");
+        background-size: 100% 100%;
 	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
 	margin: 0;
 }
